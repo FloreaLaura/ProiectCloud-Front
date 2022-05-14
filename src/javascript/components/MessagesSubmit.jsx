@@ -18,7 +18,7 @@ function MessagesSubmit() {
                 });
 
                 if(response.status === 200) {
-                    alert(`\nMessage sent: ${response.data.translationData.translatedText}`);
+                    alert(`\nTranslated Text: ${response.data.translationData.translatedText}`);
                         
                 }
         }
